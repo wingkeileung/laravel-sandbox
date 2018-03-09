@@ -4,5 +4,6 @@
     <a class="p-2 text-dark" href="/">Home</a>
     <a class="p-2 text-dark" href="/about">About</a>
     <a class="p-2 text-dark" href="/services">Services</a>
+    <a class="p-2 text-dark" href="/posts">Blog</a>
   </nav>
 </div>
