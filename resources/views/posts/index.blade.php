@@ -6,7 +6,7 @@
     @if(count($posts) > 0)
       @foreach($posts as $post)
         <div class="well">
-          <li class="list-group-item">
+          <li class="list-group-item mt-4">
             <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
             <small>Written on {{$post->created_at}}</small>
           </li>
