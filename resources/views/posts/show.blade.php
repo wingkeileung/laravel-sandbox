@@ -4,6 +4,8 @@
   <main role="main" class="container">
     <a href="/posts" class="btn btn-default mt-4">Go Back</a>
     <h1 class="mt-5">{{$post->title}}</h1>
+    <img style="width: 100%" src="/storage/cover_images/{{$post->cover_image}}" alt="{{$post->cover_image}}">
+    <br><br>
     <div>
       {!!$post->body!!}
     </div>
